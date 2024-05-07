@@ -3,7 +3,7 @@ bool Mau_AB::KN_A() {
 	return true;
 }
 bool Mau_AB::KN_B() {
-	return false;
+	return true;
 }
 bool Mau_AB::KTDT(NhomMau* Cha, NhomMau* Me) {
 	if (Cha->KN_A() && Me->KN_B() || Cha->KN_B() && Me->KN_A()) return true;
